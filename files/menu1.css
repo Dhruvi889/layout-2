@@ -1,0 +1,404 @@
+.first {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 15px;
+    padding-left: 4px;
+    padding-right: 4px;
+    align-items: center;
+    width: 100%;
+    padding-top: 20px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.maincont {
+    display: none;
+
+}
+
+.home {
+    display: flex;
+    justify-content: start;
+
+    align-items: center;
+
+
+}
+
+.page {
+    font-size: 20px;
+    color: white;
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.btnahome {
+    background-color: #da592f;
+    color: white;
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homebutton {
+    padding-right: 20px;
+}
+
+.img1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btnbook {
+    background-color: #da592f;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    width: 230px;
+    font-size: 20px;
+}
+
+.black {
+    background-color: black;
+ 
+    padding-bottom: 70px;
+    margin-top: 100px;
+
+}
+.marbot{
+    margin-bottom: -40px;
+}
+.fresh {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    color: white;
+    background-image: url(./about.jpg);
+    height: 500px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.vibe {
+    font-size: 70px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.Lorem {
+    color: #da592f;
+    font-size: 20px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.designa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.Tasty {
+    font-size: 60px;
+    margin-top: 0;
+}
+
+.chinise {
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+}
+
+.mainchiniess {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 50px;
+}
+
+.toastt {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: white;
+}
+
+.maintoastfrechh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.frenchimgg {
+    width: 15%;
+    border-radius: 30%;
+}
+
+.thea {
+    font-size: 20px;
+    margin-top: 0;
+    width: 90%;
+}
+
+.doller {
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+.doller1 {
+    margin-top: 0;
+    font-size: 25px;
+}
+
+.mainsoups {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+    color: white;
+}
+
+.ornge {
+    background-color: #da592f;
+    color: white;
+}
+
+.food {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+
+}
+
+.Delight {
+    font-size: 60px;
+    margin-top: 0;
+}
+
+.foodimg {
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    padding-left: 20px;
+
+}
+
+.MAINFOOD2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.frenchimg11 {
+    width: 15%;
+    border-radius: 30%;
+}
+
+.blk2 {
+    background-color: #211f20;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 70px;
+
+}
+
+.tous {
+    background-color: #da592f;
+    color: white;
+}
+
+.about1 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    align-items: center;
+}
+
+.news {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.signup {
+    font-size: 20px;
+}
+
+.mail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.power {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-top: -20px;
+}
+
+.super {
+    position: relative;
+}
+
+@media screen and (max-width : 1000px) {
+    .mainiconmedia {
+        display: flex;
+        justify-content: end;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width : 1000px) {
+    .first {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+
+    }
+}
+
+@media screen and (max-width : 550px) {
+    .home {
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
+
+@media screen and (max-width : 1000px) {
+    .designa {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+    }
+}
+
+@media screen and (max-width : 900px) {
+    .mainchiniess {
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+}
+
+@media screen and (max-width : 650px) {
+    .food {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+    }
+}
+
+@media screen and (max-width : 900px) {
+    .MAINFOOD2 {
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+}
+
+@media screen and (max-width : 600px) {
+    .designa {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+    }
+}
+
+@media screen and (max-width : 850px) {
+    .about1 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+    }
+}
+
+@media screen and (max-width : 800px) {
+    .news {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+    }
+}
+
+#colorbtn {
+    background-color: #da592f;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+}
+
+@media screen and (max-width : 1000px) {
+    .first {
+        display: none;
+    }
+}
+
+@media screen and (max-width : 1000px) {
+    .maincont {
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        padding: 20px;
+        background-color: black;
+        z-index: 1000;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width : 500px) {
+    .maintoastfrechh {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width : 1000px) {
+    .black {
+      position: relative;
+    }
+}

@@ -1,0 +1,81 @@
+.first {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 15px;
+    align-items: center;
+    padding-left: 10px;
+    width: 100%;
+    padding-top: 20px;
+    background-color: black;
+    color: white;
+
+
+}
+
+.homebutton {
+    padding-right: 20px;
+}
+
+.home {
+    display: flex;
+    justify-content: start;
+
+    align-items: center;
+
+}
+
+.page {
+    font-size: 20px;
+    color: white;
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#btnahome {
+    background-color: #da592f;
+    color: white;
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btnbook {
+    background-color: #da592f;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    width: 230px;
+    font-size: 20px;
+}
+
+@media screen and (max-width : 1000px) {
+    .first {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    }
+}
+@media screen and (max-width : 550px) {
+    .home {
+    flex-direction: column;
+    align-items: center;
+
+    }
+}

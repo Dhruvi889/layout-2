@@ -1,0 +1,527 @@
+.first {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 15px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 20px;
+    background-color: black;
+    color: white;
+    z-index: 1000;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    align-items: center;
+}
+
+.homebutton {
+    padding-right: 20px;
+}
+
+.page {
+    font-size: 20px;
+    color: white;
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.img1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btnahome {
+    background-color: #da592f;
+    color: white;
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnbook {
+    background-color: #da592f;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    width: 230px;
+    font-size: 20px;
+}
+
+.main {
+    background-color: black;
+    margin-top: 100px;
+}
+
+.joinus {
+    width: 30%;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    
+    background-image: url(./about.jpg);
+    height: 500px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.marbot{
+    margin-bottom: -40px;
+}
+.usa {
+    font-size: 70px;
+    color: white;
+    text-align: center;
+   
+}
+
+.Lorem {
+    color: #da592f;
+    font-size: 20px;
+    margin-top: -30px;
+    text-align: center;
+ 
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.imgsub {
+    border-radius: 250px;
+}
+
+.design {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 100px;
+}
+
+.imgs {
+    display: flex;
+}
+
+.orange {
+
+    color: white;
+    background-color: #da592f;
+    padding: 70px;
+}
+
+.abc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.the {
+    font-size: 60px;
+    margin-top: 0;
+}
+
+.newyr {
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+    align-items: center;
+}
+
+.new1 {
+    font-size: 70px;
+}
+
+.Party {
+    font-size: 40px;
+}
+
+.yrparty {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    transform: rotate(10deg);
+}
+
+.mainparty {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.Success {
+    display: flex;
+    flex-direction: column;
+}
+
+.weding {
+    background-color: black;
+    color: white;
+    padding-top: 100px;
+}
+
+.Gourmet {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 60px;
+
+}
+
+.gal {
+    padding-left: 20px;
+}
+
+.mainunique {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+
+}
+
+.m1988 {
+    display: flex;
+    gap: 0;
+}
+
+.uique {
+    width: 30%;
+}
+
+.Nurturing {
+    background-color: #da592f;
+    color: white;
+    padding-bottom: 70px;
+}
+
+.mainnature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.Strong {
+    font-size: 50px;
+    margin-top: 0;
+}
+
+.Desert {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#colorbtn {
+    background-color: #da592f;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+}
+
+.jom {
+    border-radius: 30px;
+}
+
+.heaun {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.specialist {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.mainoliver {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.trust {
+    width: 30%;
+
+}
+
+.rest {
+    font-size: 20px;
+}
+
+.maintrust {
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
+
+.trusted {
+    border-radius: 50%;
+    width: 25%;
+    height: 100px;
+}
+
+.oliver {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.Assistant {
+    margin-top: 0;
+}
+
+.redom {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    padding-top: 100px;
+    margin-bottom: 0;
+}
+
+.they {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.what {
+    font-size: 50px;
+    margin-top: 0;
+}
+
+.tous {
+    background-color: #da592f;
+    color: white;
+}
+
+.about1 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 50px;
+    align-items: center;
+}
+
+.news {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 50px;
+}
+
+.power {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.signup {
+    font-size: 20px;
+}
+
+.mail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.maincont {
+    display: none;
+
+}
+
+.super {
+    position: relative;
+}
+
+@media screen and (max-width : 1000px) {
+    .first {
+        display: none;
+    }
+}
+
+@media screen and (max-width : 900px) {
+    .home {
+
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width : 500px) {
+    .home {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width : 900px) {
+    .homebutton {
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width : 350px) {
+    .img1 {
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
+
+@media screen and (max-width : 900px) {
+    .about {
+        display: flex;
+        justify-content: center;
+
+
+    }
+}
+
+@media screen and (max-width : 800px) {
+    .mainparty {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+
+    }
+}
+
+@media screen and (max-width : 800px) {
+    .abc {
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width : 800px) {
+    .gal {
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width : 900px) {
+    .mainnature {
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width : 700px) {
+    .Desert {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width : 900px) {
+    .they {
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width : 900px) {
+    .mainoliver {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width : 900px) {
+    .trust {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width : 900px) {
+    .maintrust {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width : 850px) {
+    .about1 {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+}
+
+@media screen and (max-width : 750px) {
+    .news {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+}
+
+@media screen and (max-width : 1000px) {
+    .maincont {
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        padding: 20px;
+        background-color: black;
+        z-index: 1000;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width : 1000px) {
+    .mainiconmedia {
+        display: flex;
+        justify-content: end;
+        gap: 20px;
+    }
+}

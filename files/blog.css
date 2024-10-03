@@ -1,0 +1,300 @@
+.first {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 15px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 99%;
+    padding-top: 20px;
+    background-color: black;
+    color: white;
+    z-index: 2000;
+}
+
+#page1 {
+    padding-right: 20px;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    align-items: center;
+}
+
+.homebutton {
+    padding-right: 20px;
+}
+
+.page {
+    font-size: 20px;
+    color: white;
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.img1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btnahome {
+    background-color: #da592f;
+    color: white;
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnbook {
+    background-color: #da592f;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    width: 230px;
+    font-size: 20px;
+}
+
+.black {
+    background-color: black;
+    margin-top: 100px;
+    color: white;
+    padding-bottom: 70px;
+    padding-bottom: 100px;
+}
+.maincont {
+    display: none;
+   
+}
+.marbot{
+    margin-bottom: -40px;
+    text-align: center;
+}
+.blog {
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: end;
+    background-image: url(./about.jpg);
+    height: 500px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#colorbtn {
+    background-color: #da592f;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+}
+.b1 {
+    font-size: 80px;
+    margin-bottom: 0;
+}
+
+.Lorem {
+    font-size: 20px;
+    color: #da592f;
+    margin-top: 0;
+}
+
+.our {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.let {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.Explorer {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.exploreimg {
+    border-radius: 30px;
+    margin-left: 20px;
+}
+
+.Into {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.morea {
+    color: #da592f;
+    border: none;
+    background-color: black;
+    margin-top: 25px;
+}
+
+.Gastronomy {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+
+.april {
+    font-size: 20px;
+}
+
+.tous {
+    background-color: #da592f;
+    color: white;
+    padding-top: 50px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 50px;
+    align-items: center;
+}
+
+.news {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.mail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.power {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.wis {
+    font-size: 50px;
+}
+
+@media screen and (max-width : 1000px) {
+    .first {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width : 1000px) {
+    .home {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width : 550px) {
+    .home {
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
+
+@media screen and (max-width : 650px) {
+    .our {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width : 1000px) {
+    .Explorer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+@media screen and (max-width : 1000px) {
+    .Gastronomy {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+@media screen and (max-width : 850px) {
+    .about {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+    }
+}
+@media screen and (max-width : 800px) {
+    .news {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+    }
+}
+
+@media screen and (max-width : 1000px) {
+    .first {
+        display: none;
+    }
+}
+@media screen and (max-width : 1000px) {
+    .maincont {
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        padding: 20px;
+        background-color: black;
+        z-index: 1000;
+        width: 100%;
+    }
+}
+@media screen and (max-width : 1000px) {
+    .mainiconmedia {
+        display: flex;
+        justify-content: end;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width : 1000px) {
+    .exploreimg {
+        width: 80%;
+    }
+}

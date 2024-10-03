@@ -1,0 +1,347 @@
+.first {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 99%;
+    padding-top: 20px;
+    background-color: black;
+    color: white;
+    z-index: 1000;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    width: 45%;
+    gap: 10px;
+    align-items: center;
+}
+
+.page {
+    font-size: 20px;
+    color: white;
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.homebutton {
+    padding-right: 20px;
+}
+#colorbtn {
+    background-color: #da592f;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+}
+.btnahome {
+    background-color: #da592f;
+    color: white;
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btnbook {
+    background-color: #da592f;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    width: 230px;
+    font-size: 20px;
+}
+
+.black {
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+    padding-bottom: 100px;
+}
+.marbot{
+    margin-bottom: -40px;
+    text-align: center;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    background-image: url(./about.jpg);
+    height: 500px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.conus {
+    font-size: 80px;
+    margin-bottom: 0;
+}
+
+.Lorem {
+    color: #da592f;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.mainform {
+    margin-top: 150px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgcon {
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+
+}
+
+.name1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.name4 {
+    background-color: black;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    width: 280px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.name {
+    background-color: black;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    width: 280px;
+    margin-top: 20px;
+}
+
+.name2 {
+    background-color: black;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    width: 580px;
+    margin-top: 20px;
+}
+
+.subform {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.mainclas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.subbtn {
+    color: white;
+    background-color: #da592f;
+    padding: 18px;
+    border: none;
+    border-radius: 30px;
+    width: 150px;
+    font-size: 18px;
+}
+
+.tous {
+    background-color: #da592f;
+    color: white;
+    padding-top: 50px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 50px;
+    align-items: center;
+}
+
+.news {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.mail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.power {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.wis {
+    font-size: 50px;
+}
+.maincont {
+    display: none;
+   
+}
+
+@media screen and (max-width : 1000px) {
+    .first {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+
+    }
+}
+@media screen and (max-width : 1000px) {
+    .maincont {
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        padding: 20px;
+        background-color: black;
+        z-index: 1000;
+        width: 100%;
+    }
+}
+@media screen and (max-width : 550px) {
+    .home {
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
+@media screen and (max-width : 1000px) {
+    .mainiconmedia {
+        display: flex;
+        justify-content: end;
+        gap: 20px;
+    }
+}
+@media screen and (max-width : 1000px) {
+    .mainform {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width : 650px) {
+    .subform {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        display: flex;
+
+    }
+}
+
+@media screen and (max-width : 650px) {
+    .name1 {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        display: flex;
+
+    }
+}
+
+@media screen and (max-width : 650px) {
+    .name {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        display: flex;
+
+    }
+}
+
+@media screen and (max-width : 1000px) {
+    .abcbtn {
+        display: flex;
+        justify-content: center;
+
+    }
+}
+
+@media screen and (max-width : 1000px) {
+    .mainmails {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+    }
+}
+@media screen and (max-width : 1000px) {
+    .first {
+        display: none;
+    }
+}
+@media screen and (max-width : 850px) {
+    .about {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+    }
+}
+
+@media screen and (max-width : 800px) {
+    .news {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+    }
+}
+
+@media screen and (max-width : 1000px) {
+    .name2 {
+       width: 400px;
+    }
+}
+@media screen and (max-width : 1000px) {
+    .maps {
+       width: 100%;
+       height: 400px;
+    }
+}
